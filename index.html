@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayad Ibna Azad - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="#home">Sayad Azad</a>
+            </div>
+            <div class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sayad Ibna Azad</h1>
+                <h2 class="hero-subtitle">Computer Science Engineering Student</h2>
+                <p class="hero-description">
+                    <span class="typing-text" id="typingText">Full-Stack Developer & Machine Learning Enthusiast</span>
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-bio">
+                        A 3rd-year Computer Science student at IUT with a strong passion for machine learning, software development, and full-stack engineering. Actively seeking opportunities to apply my skills in real-world projects and impactful internships.
+                    </p>
+                    <div class="education-info">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>BSC in CSE</h4>
+                            <p>Islamic University of Technology (IUT) • 2026</p>
+                            <p class="cgpa">CGPA: 3.68 / 4.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-label">Years of Coding</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10">0</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-label">Technologies Mastered</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Web Development">Web Development</button>
+                <button class="filter-btn" data-filter="Machine Learning">Machine Learning</button>
+                <button class="filter-btn" data-filter="Desktop Application">Desktop Application</button>
+                <button class="filter-btn" data-filter="Mobile Development">Mobile Development</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="Machine Learning">
+                    <div class="project-image">
+                        <div class="project-placeholder">ML</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CardioNet-Validator</h3>
+                        <p class="project-description">Heart Disease Prediction Model using Machine Learning algorithms to predict cardiovascular health risks</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Jupyter Notebook</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sayad-dot/CardioNet-Validator" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Desktop Application">
+                    <div class="project-image">
+                        <div class="project-placeholder">💳</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Campus Wallet</h3>
+                        <p class="project-description">Online Banking Management System with secure transaction processing and user account management</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">SceneBuilder</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sayad-dot/CampusWallet" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Web Development">
+                    <div class="project-image">
+                        <div class="project-placeholder">🛒</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ShopEase</h3>
+                        <p class="project-description">Full-stack E-Commerce Website with complete shopping cart, payment integration, and admin panel</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sayad-dot/ShopEase-Ecommerce-project" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Mobile Development">
+                    <div class="project-image">
+                        <div class="project-placeholder">☕</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Just Coffee</h3>
+                        <p class="project-description">Cross-platform Mobile Application for coffee ordering with real-time order tracking</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sayad-dot/Just-Coffee" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Achievements</h2>
+            <div class="experience-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Executive Member</h3>
+                            <h4>IUT Computer Society (IUTSC)</h4>
+                            <p>Leadership • Currently serving as an executive member contributing to the development of the computer science community at IUT.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Science Olympiad 2019</h3>
+                            <h4>Regional 1st Place</h4>
+                            <p>Achievement • Secured first place in the regional science olympiad competition, demonstrating excellence in scientific knowledge and problem-solving.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Communication Secretary</h3>
+                            <h4>Notre Dame Science Club (NDSC)</h4>
+                            <p>Leadership • Managed communication and outreach activities for the science club, organizing events and workshops.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Physics Olympiad 2017</h3>
+                            <h4>Finalist</h4>
+                            <p>Achievement • Reached the finals of the National Physics Olympiad, showcasing strong analytical and problem-solving skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">Deep Learning Specialization (Andrew Ng)</div>
+                        <div class="cert-item">Android App Development (Udacity)</div>
+                        <div class="cert-item">Machine Learning with Python (IBM)</div>
+                        <div class="cert-item">Full-Stack Web Development (Coursera)</div>
+                        <div class="cert-item">Java Programming (Programming Hub)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and innovation.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <a href="mailto:sayadibnaazad@iut-dhaka.edu">sayadibnaazad@iut-dhaka.edu</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <a href="tel:+8801741936901">+880 174 193 6901</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Gazipur, Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/sayad-dot" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com/in/sayad-ibna-azad" target="_blank" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sayad Ibna Azad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
