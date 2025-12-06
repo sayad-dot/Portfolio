@@ -14,7 +14,8 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="navbar-brand">
-                <a href="#home">Sayad Azad</a>
+                <img src="SayadIbnaAzad.jpg" alt="Sayad Ibna Azad" class="navbar-profile" id="navbarProfile">
+                <a href="#home">Sayad Ibna Azad</a>
             </div>
             <div class="navbar-menu" id="navbarMenu">
                 <ul class="navbar-nav">
@@ -22,6 +23,7 @@
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
                     <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
@@ -43,15 +45,69 @@
     <section class="hero" id="home">
         <div class="hero-background"></div>
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Sayad Ibna Azad</h1>
-                <h2 class="hero-subtitle">Computer Science Engineering Student</h2>
-                <p class="hero-description">
-                    <span class="typing-text" id="typingText">Full-Stack Developer & Machine Learning Enthusiast</span>
-                </p>
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn--primary">View Projects</a>
-                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+            <div class="hero-layout">
+                <div class="hero-profile-side">
+                    <div class="hero-profile-sticky">
+                        <img src="SayadIbnaAzad.jpg" alt="Sayad Ibna Azad">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Sayad Ibna Azad</h1>
+                    <h2 class="hero-subtitle">Computer Science Engineering Student</h2>
+                    <p class="hero-description">
+                        <span class="typing-text" id="typingText">Full-Stack Developer & Machine Learning Enthusiast</span>
+                    </p>
+                    <div class="resume-card">
+                        <div class="resume-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <div class="resume-content">
+                            <h3>Resume</h3>
+                            <p>View my full professional resume</p>
+                        </div>
+                        <div class="resume-actions">
+                            <a href="Resume.pdf" target="_blank" class="btn-resume-view" title="View Resume">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </a>
+                            <a href="Resume.pdf" download class="btn-resume-download" title="Download Resume">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-social-buttons">
+                        <a href="mailto:sayadibnaazad@iut-dhaka.edu" class="hero-social-btn" title="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Email
+                        </a>
+                        <a href="https://linkedin.com/in/sayad-ibna-azad-181a03300" target="_blank" rel="noopener" class="hero-social-btn" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/sayad-dot" target="_blank" rel="noopener" class="hero-social-btn" title="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,33 +120,27 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="about-bio">
-                        A 3rd-year Computer Science student at IUT with a strong passion for machine learning, software development, and full-stack engineering. Actively seeking opportunities to apply my skills in real-world projects and impactful internships.
+                        I am a final-year Computer Science and Engineering student at the Islamic University of Technology (IUT), with hands-on experience in backend development (Java and .NET). I am passionate about AI/ML, particularly Computer Vision (CV). I enjoy solving problems and learning new technologies. I value collaboration and clear communication, and hope to contribute positively.
                     </p>
                     <div class="education-info">
                         <h3>Education</h3>
                         <div class="education-item">
-                            <h4>BSC in CSE</h4>
+                            <h4>B.Sc. in CSE</h4>
                             <p>Islamic University of Technology (IUT) • 2026</p>
-                            <p class="cgpa">CGPA: 3.68 / 4.00</p>
+                            <p class="cgpa">GPA (Last Semester): 3.22 / 4.00</p>
                         </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="4">0</span>
-                        <span class="stat-label">Years of Coding</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="10">0</span>
-                        <span class="stat-label">Projects Completed</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="15">0</span>
-                        <span class="stat-label">Technologies Mastered</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="5">0</span>
-                        <span class="stat-label">Certifications</span>
+                        <div class="education-item">
+                            <h4>Higher Secondary Certificate (HSC)</h4>
+                            <p>Notre Dame College, Dhaka • 2021</p>
+                            <p class="cgpa">GPA: 5.00 / 5.00</p>
+                            <p class="cgpa">78th in Dhaka Board (General Scholarship)</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Secondary School Certificate (SSC)</h4>
+                            <p>Faridpur Zilla School, Faridpur • 2019</p>
+                            <p class="cgpa">GPA: 5.00 / 5.00</p>
+                            <p class="cgpa">8th in Faridpur District (General Scholarship)</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,98 +151,54 @@
     <section class="skills-section" id="skills">
         <div class="container">
             <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
+            <div class="skills-wrapper">
+                <div class="skill-group">
                     <h3>Programming Languages</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">C</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">C++</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Java</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="92"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">JavaScript</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="88"></div>
-                            </div>
-                        </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C#</span>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">HTML</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">CSS</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">React</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Node.js</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="80"></div>
-                            </div>
-                        </div>
+                <div class="skill-group">
+                    <h3>Frameworks & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">ASP.NET Core</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Databases & Tools</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">MySQL</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">MongoDB</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="80"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Git</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Linux</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="82"></div>
-                            </div>
-                        </div>
+                <div class="skill-group">
+                    <h3>AI/ML Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">MediaPipe</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">TabNet</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">SignalR</span>
                     </div>
                 </div>
             </div>
@@ -203,82 +209,122 @@
     <section class="projects-section" id="projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="Web Development">Web Development</button>
-                <button class="filter-btn" data-filter="Machine Learning">Machine Learning</button>
-                <button class="filter-btn" data-filter="Desktop Application">Desktop Application</button>
-                <button class="filter-btn" data-filter="Mobile Development">Mobile Development</button>
-            </div>
             <div class="projects-grid">
-                <div class="project-card" data-category="Machine Learning">
-                    <div class="project-image">
-                        <div class="project-placeholder">ML</div>
-                    </div>
+                <a href="https://github.com/sayad-dot/SilentVoice_BD" target="_blank" rel="noopener" class="project-card project-card-link">
                     <div class="project-content">
-                        <h3 class="project-title">CardioNet-Validator</h3>
-                        <p class="project-description">Heart Disease Prediction Model using Machine Learning algorithms to predict cardiovascular health risks</p>
+                        <div class="project-header">
+                            <h3 class="project-title-large">SilentVoiceBD</h3>
+                            <div class="project-github-icon-large" aria-label="GitHub">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="project-description-extended">Comprehensive gesture-to-text/speech system for real-time Bengali sign language interpretation. Features include hand tracking, gesture recognition, and multi-platform support for accessibility.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Jupyter Notebook</span>
-                            <span class="tech-tag">Machine Learning</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sayad-dot/CardioNet-Validator" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="Desktop Application">
-                    <div class="project-image">
-                        <div class="project-placeholder">💳</div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Campus Wallet</h3>
-                        <p class="project-description">Online Banking Management System with secure transaction processing and user account management</p>
-                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">MediaPipe</span>
                             <span class="tech-tag">Java</span>
-                            <span class="tech-tag">JavaFX</span>
-                            <span class="tech-tag">SceneBuilder</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sayad-dot/CampusWallet" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="Web Development">
-                    <div class="project-image">
-                        <div class="project-placeholder">🛒</div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">ShopEase</h3>
-                        <p class="project-description">Full-stack E-Commerce Website with complete shopping cart, payment integration, and admin panel</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Express</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sayad-dot/ShopEase-Ecommerce-project" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="Mobile Development">
-                    <div class="project-image">
-                        <div class="project-placeholder">☕</div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Just Coffee</h3>
-                        <p class="project-description">Cross-platform Mobile Application for coffee ordering with real-time order tracking</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React Native</span>
                             <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Node.js</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/sayad-dot/Just-Coffee" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                    </div>
+                </a>
+                <a href="https://github.com/sayad-dot/BDSLW_SPOTER" target="_blank" rel="noopener" class="project-card project-card-link">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title-large">BdSL-SPOTER</h3>
+                            <div class="project-github-icon-large" aria-label="GitHub">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </div>
                         </div>
+                        <p class="project-description-extended">Novel transformer framework achieving 97.92% Top-1 accuracy for Bengali Sign Language Recognition. Published at ISVC'25, this research introduces state-of-the-art methods for gesture-based communication.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">CUDA</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="project-card project-card-special">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title-large">Inventory Management System</h3>
+                            <div class="project-header-actions">
+                                <a href="https://github.com/sayad-dot/InventoryManagement" target="_blank" rel="noopener" class="project-icon-btn" aria-label="GitHub">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://inventory-management.victoriousbay-ca745c69.centralus.azurecontainerapps.io/" target="_blank" rel="noopener" class="project-icon-btn" aria-label="Live Demo">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description-extended">Web application for managing custom inventories with real-time discussions, multi-user collaboration, and customizable ID formats. Features include role-based access control and dynamic dashboard analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ASP.NET Core MVC</span>
+                            <span class="tech-tag">Entity Framework</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">SignalR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="projects-footer-note">Visit <a href="https://github.com/sayad-dot" target="_blank" rel="noopener">GitHub</a> to explore all projects</p>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research-section" id="research">
+        <div class="container">
+            <h2 class="section-title">Research & Publications</h2>
+            <div class="research-layout">
+                <div class="research-main-box">
+                    <div class="research-main-header">
+                        <h3 class="research-title">BdSL-SPOTER: A Transformer-Based Framework for Bengali Sign Language Recognition</h3>
+                        <a href="https://github.com/sayad-dot/BDSLW_SPOTER" target="_blank" rel="noopener" class="research-github-icon" aria-label="GitHub">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="research-venue">Accepted at ISVC'25 & published in Lecture Notes in Computer Science (LNCS)</p>
+                    <p class="research-description">
+                        Novel transformer framework achieving 97.92% Top-1 accuracy for Bengali Sign Language Recognition. This research addresses the critical need for accessible communication tools for the deaf and hard-of-hearing community in Bangladesh. The framework leverages state-of-the-art transformer architectures combined with MediaPipe for robust hand tracking and gesture recognition.
+                    </p>
+                    <div class="research-tech">
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Transformers</span>
+                        <span class="tech-tag">MediaPipe</span>
+                        <span class="tech-tag">CUDA</span>
+                    </div>
+                    <div class="research-arxiv-section">
+                        <p class="research-arxiv-text">Review the full version of the paper here:</p>
+                        <a href="https://arxiv.org/abs/2511.12103" target="_blank" rel="noopener" class="btn btn--primary btn--large">arXiv</a>
+                    </div>
+                </div>
+                <div class="research-right-boxes">
+                    <div class="research-box research-box-large">
+                        <a href="ISVC2025_BdSL-SPOTER.pdf" target="_blank" rel="noopener" class="research-box-link">
+                            <div class="research-box-icon">📋</div>
+                            <div class="research-box-title">Conference Poster</div>
+                            <div class="research-box-subtitle">ISVC 2025</div>
+                        </a>
+                    </div>
+                    <div class="research-box research-box-large">
+                        <a href="BDSL-SPOTER.pdf" target="_blank" rel="noopener" class="research-box-link">
+                            <div class="research-box-icon">📄</div>
+                            <div class="research-box-title">View Paper</div>
+                            <div class="research-box-subtitle">Full Publication</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -294,44 +340,53 @@
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>Executive Member</h3>
-                            <h4>IUT Computer Society (IUTSC)</h4>
-                            <p>Leadership • Currently serving as an executive member contributing to the development of the computer science community at IUT.</p>
+                            <h3>.NET Developer Intern (iTransition)</h3>
+                            <h4>September 2025 - November 2025</h4>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>Science Olympiad 2019</h3>
-                            <h4>Regional 1st Place</h4>
-                            <p>Achievement • Secured first place in the regional science olympiad competition, demonstrating excellence in scientific knowledge and problem-solving.</p>
+                            <h3>Executive Member, IUT Computer Society</h3>
+                            <h4>2024 - Present</h4>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>Communication Secretary</h3>
-                            <h4>Notre Dame Science Club (NDSC)</h4>
-                            <p>Leadership • Managed communication and outreach activities for the science club, organizing events and workshops.</p>
+                            <h3>Regional Finalist, ICPC Asia Dhaka 2024</h3>
+                            <h4>2024</h4>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h3>Physics Olympiad 2017</h3>
-                            <h4>Finalist</h4>
-                            <p>Achievement • Reached the finals of the National Physics Olympiad, showcasing strong analytical and problem-solving skills.</p>
+                            <h3>Regional 1st Place, Science Olympiad 2019</h3>
                         </div>
                     </div>
-                </div>
-                <div class="certifications">
-                    <h3>Certifications</h3>
-                    <div class="cert-grid">
-                        <div class="cert-item">Deep Learning Specialization (Andrew Ng)</div>
-                        <div class="cert-item">Android App Development (Udacity)</div>
-                        <div class="cert-item">Machine Learning with Python (IBM)</div>
-                        <div class="cert-item">Full-Stack Web Development (Coursera)</div>
-                        <div class="cert-item">Java Programming (Programming Hub)</div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Communication Secretary, Notre Dame Science Club</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Joint Secretary, Notre Dame Debating Society</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Finalist, Physics Olympiad</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Participant, Math Olympiad</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -361,9 +416,18 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="https://github.com/sayad-dot" target="_blank" class="social-link">GitHub</a>
-                        <a href="https://linkedin.com/in/sayad-ibna-azad" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/sayad-dot" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/sayad-ibna-azad-181a03300" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
                     </div>
+
                 </div>
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
